@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+}
+
+nav {
+    background-color: red;
+    height: 50px;
+    width: 100%;
+}
+
+.index-container {
+    position: relative;
+    width: 100%;
+    height: calc(100vh - 100px);
+}
+
+.index-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-width: 0;
+}
+
+footer {
+    position: absolute;
+    display: flex;
+    background-color: green;
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    align-items: center;
+    justify-content: center;
+}
+
+footer div {
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+
+footer button {
+    width: 50px;
+    height: 100%;
+    border-width: 0;
+    background: black;
+    margin: 0 20px;
+}
